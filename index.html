@@ -41,8 +41,8 @@
   </head>
   <body>
     <header class="pt-[40px] pb-[20px] max-width">
-      <nav>
-        <div class="flex justify-between items-center">
+      <nav class="flex justify-between items-center md:items-center">
+        
           <!-- LOGO AND -->
           <div class="md:flex md:items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
@@ -74,7 +74,7 @@
 
               <!-- LOGIN -->
               <ul
-                class="md:inline-flex md:items-center xl:ml-[490px] lg:ml-[300px] md:ml-[100px] md:text-GrayishViolet text-white"
+                class="md:inline-flex md:items-center xl:ml-[490px] lg:ml-[300px] md:ml-[150px] md:text-GrayishViolet text-white"
               >
                 <li
                   class="md:py-[0.2rem] md:px-[2rem] pb-[30px] font-bold cursor-pointer hover:text-black"
@@ -82,13 +82,13 @@
                   <a href="#">Login</a>
                 </li>
                 <button
-                  class="bg-Cyan rounded-full cursor-pointer hover:bg-cyan-200"
+                  class="bg-Cyan rounded-full cursor-pointer hover:bg-cyan-200 py-[10px] px-[20px]"
                 >
-                  <li
-                    class="md:py-[8px] py-[10px] px-[20px] md:px-[15px] text-white font-bold"
+                  <a
+                    href="#"
+                    class="py-[10px] md:px-[15px] text-white font-bold"
+                    >SignUp</a
                   >
-                    <a href="#">Sign up</a>
-                  </li>
                 </button>
               </ul>
             </ul>
@@ -142,6 +142,7 @@
             menu.classList.toggle("hidden");
           });
         </script> -->
+      
       </nav>
     </header>
     <main class="font-poppins">
@@ -149,7 +150,7 @@
         <!-- md:pl-[80px] px-[30px] -->
         <!-- class="max-width md:flex md:justify-between pb-[30px]" -->
         <div
-          class="max-width grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 md:pt-0 pt-[120px]"
+          class="max-width grid grid-cols-1 gap-5 md:grid-cols-2 md:pt-0 pt-[120px]"
         >
           <div class="md:hidden">
             <img src="images//illustration-working.svg" alt="" />
